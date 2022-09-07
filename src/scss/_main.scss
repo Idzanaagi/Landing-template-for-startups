@@ -1,0 +1,27 @@
+@import 'variables';
+
+.main__description {
+    margin-bottom: 32px;
+}
+
+.main__buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.main-button {
+    padding: 10px 20px;
+    margin: 20px 10px;
+}
+
+.main__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__image-content {
+    width: 1024px;
+    height: 576px;
+}

@@ -1,0 +1,16 @@
+@import 'variables';
+
+body {
+    font-family: $font-primary;
+    background-color: black;
+    font-style: normal;
+    max-width: 1440px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+}
+
+.container {
+    max-width: 1104px;
+    margin: 0 auto;
+}
