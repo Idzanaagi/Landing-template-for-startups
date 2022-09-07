@@ -1,17 +1,8 @@
-.build-up {
-    margin-top: 128px;
-}
-
 .build-up__items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.build-up__item-title {
-    width: 100%;
-    font-size: 18px;
-    line-height: 30px;
+    margin: 80px 0;
 }
 
 .build-up__item {
@@ -20,4 +11,14 @@
     flex-direction: column;
     text-align: center;
     margin-top: 5%;
+}
+
+.build-up__item-icon {
+    margin-bottom: 16px;
+}
+
+.build-up__item-title {
+    width: 100%;
+    font-size: 18px;
+    line-height: 30px;
 }

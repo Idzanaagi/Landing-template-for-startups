@@ -1,0 +1,16 @@
+.comment__items {
+    background-color: #25282C;
+    display: flex;
+//    justify-content: space-around;
+    margin: 80px 0;
+}
+
+.comment__item {
+    width: 352px;
+    height: 339px;
+    padding: 88px 24px 20px 24px;
+}
+
+.comment__caption {
+    color: $color-blue;
+}
