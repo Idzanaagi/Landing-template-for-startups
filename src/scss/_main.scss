@@ -1,16 +1,10 @@
-@import 'variables';
-
-.main__description {
-    margin-bottom: 32px;
-}
-
 .main__buttons {
     display: flex;
     justify-content: center;
     margin-bottom: 64px;
 }
 
-.main-button {
+.main__button {
     padding: 10px 20px;
     margin: 20px 10px;
 }

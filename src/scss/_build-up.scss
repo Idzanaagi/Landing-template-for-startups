@@ -1,15 +1,17 @@
-@import 'variables';
+.build-up {
+    margin-top: 128px;
+}
+
+.build-up__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .build-up__item-title {
     width: 100%;
     font-size: 18px;
     line-height: 30px;
-}
-
-.build-up {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .build-up__item {

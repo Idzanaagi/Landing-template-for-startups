@@ -1,16 +1,17 @@
 @import 'variables';
 
-.header__top {
+.header__menu {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 20px 0;
+    margin-bottom: 60px;
 }
 
 .header__link {
     color: $color-sentimenal;
     font-weight: 400;
-    float: left;
+    float: left
 }
 
 .header__button {

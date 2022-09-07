@@ -1,4 +1,9 @@
-@import 'variables';
+.container-description {
+    width: 768px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 17px;
+}
 
 .button {
     background: $color-blue;
@@ -8,14 +13,11 @@
     height: 48px;
 }
 
-.description {
-    text-align: center;
-}
-
 .title {
     color: $color-font-primary;
     font-weight: 800;
     letter-spacing: -0.5px;
+    margin: 0 auto;
 }
 
 .subtitle {
