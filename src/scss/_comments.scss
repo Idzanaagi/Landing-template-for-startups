@@ -1,13 +1,18 @@
 .comment__items {
-    background-color: #25282C;
     display: flex;
     margin: 80px 0;
+    justify-content: space-between;
 }
 
 .comment__item {
     width: 352px;
-    height: 339px;
-    padding: 88px 24px 20px 24px;
+    background-color: #25282C;
+    padding: 24px 24px 20px 24px;
+    margin-right: 24px;
+}
+
+.comment__item:last-child {
+    margin-right: 0;
 }
 
 .comment__caption {

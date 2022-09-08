@@ -1,9 +1,14 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 60px 0;
+}
+
 .header__menu {
     display: flex;
-    align-items: center;
     justify-content: flex-end;
-    padding: 20px 0;
-    margin-bottom: 60px;
+    align-items: center;
 }
 
 .header__link {
