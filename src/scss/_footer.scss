@@ -1,0 +1,32 @@
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer__description {
+    width: 352px;
+}
+
+.nav-wrapper {
+    width: 583px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav  {
+    font-size: 14px;
+    line-height: 22px;
+    color: #9BA9B4;    
+}
+
+.footer__bottom {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    margin: 0 0 70px 0;
+}
