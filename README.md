@@ -1,7 +1,7 @@
 <h1> Шаблон лендинга для стартапов </h1>
 <h2> Просто взяла и сверстала лендинг по макету </h2>
 
-### Стек: HTML5, CSS3, Sass, Webpack, Figma, BEM
+### Стек: HTML5, CSS3, Sass, Webpack, Figma, BEM, flexbox
 
 ### Описание: 
 - напсала валидную [разметку](https://github.com/Idzanaagi/sass-webpack/blob/main/index.html) HTML5;
