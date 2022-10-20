@@ -14,6 +14,6 @@
 
 <img src="https://github.com/Idzanaagi/sass-webpack/blob/main/src/demo/demo.gif">
  
-
+<b> Деплой: https://sass-webpack.vercel.app/ </b>
 
 [Макет лежит здесь](https://www.figma.com/community/file/1073934470603988422) 
