@@ -38,11 +38,36 @@
     font-weight: 500;
 }
 
-.footer__social-item {
-    padding-right: 16px;
+.footer__items {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.footer__social-item:last-child {
+.footer__item {
+    margin-right: 16px;
+}
+
+.footer__item:last-child {
+    margin-right: 0;
+}
+
+.footer__item-icon{
+    padding-right: 16px;
+    width: 32px;
+    height: 32px;
+    background-color: #25282C;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__item-icon > img {
+    width: 16px;
+    height: 16px;
+}
+
+.footer__item-icon:last-child {
     padding-right: 0;
 }
 

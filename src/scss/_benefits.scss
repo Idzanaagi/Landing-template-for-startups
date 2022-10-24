@@ -10,7 +10,15 @@
     color: #36A269;
     display: flex;
     justify-content: center;
+    background-color: #C6F6D5;
+    width: 186px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
     margin-bottom: 16px;
+    
 }
 
 .benefits__item {
@@ -18,6 +26,10 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 80px;
+}
+
+.benefits__item:nth-child(even) {
+    flex-direction: row-reverse;
 }
 
 .benefits__text-content {
@@ -48,4 +60,14 @@
 
 .benefits_p {
     margin-bottom: 16px;
+}
+
+.benefits::after {
+    content: "";
+    display: block;
+    width: 1104px;
+    margin: 0 auto;
+    border-bottom: 1px solid #979797;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
