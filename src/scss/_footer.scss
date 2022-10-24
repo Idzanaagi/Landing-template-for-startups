@@ -50,3 +50,11 @@
 .footer__logo {
     margin-bottom: 14px;
 }
+
+.nav__a {
+    color: $color-font-additional;
+}
+
+.nav__a:hover {
+    text-decoration: underline;
+}

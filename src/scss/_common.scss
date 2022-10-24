@@ -16,6 +16,7 @@ body {
     margin: 0 auto;
 }
 
-.button:hover {
+button:hover {
     cursor: pointer;
+    text-decoration: underline;
 }
