@@ -1,3 +1,7 @@
+.build-up {
+    margin-bottom: 80px;
+}
+
 .build-up__items {
     display: flex;
     flex-wrap: wrap;
@@ -7,6 +11,7 @@
 
 .build-up__item {
     width: 30%;
+    height: 270px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -21,4 +26,5 @@
     width: 100%;
     font-size: 18px;
     line-height: 30px;
+    overflow: auto;
 }

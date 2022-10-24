@@ -16,12 +16,9 @@
     color: $color-font-primary;
     font-weight: 800;
     letter-spacing: -0.5px;
-    margin: 0 auto;
 }
 
 .subtitle {
-    max-width: 768px;
-    margin: 0 auto;
     color: $color-font-additional;
     font-weight: 400;
     font-size: 20px;
@@ -34,5 +31,5 @@
 }
 
 .decor {
-    padding: 80px 0;
+    margin-bottom: 80px;;
 }
