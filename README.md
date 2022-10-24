@@ -4,7 +4,7 @@
 ### Стек: HTML5, CSS3, Sass, Webpack, Figma, BEM
 
 ### Описание: 
-- напсала валидную [разметку](https://github.com/Idzanaagi/sass-webpack/blob/main/index.html) HTML5;
+- написала валидную [разметку](https://github.com/Idzanaagi/sass-webpack/blob/main/index.html) HTML5;
 - настроила [конфиг](https://github.com/Idzanaagi/sass-webpack/blob/main/webpack.config.cjs) вебпака для работы с html, css, sass, файлами;
 - [использовала](https://github.com/Idzanaagi/sass-webpack/tree/main/src/scss) возможности Sass (фрагментирование, переменные);
 - поработала с Figma (нарезка макета, стилей);
