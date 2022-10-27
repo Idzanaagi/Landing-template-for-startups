@@ -1,0 +1,29 @@
+.testimonials__items {
+    display: flex;
+    margin: 80px 0;
+    justify-content: space-between;
+}
+
+.testimonials__item {
+    width: 352px;
+    background-color: #25282C;
+    padding: 24px 24px 20px 24px;
+    margin-right: 24px;
+}
+
+.testimonials__item:last-child {
+    margin-right: 0;
+}
+
+.testimonials__caption {
+    color: $color-blue;
+}
+
+// в текстовых блоках перед подписью
+.testimonials::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    border-bottom: 1px solid #979797;
+    padding: 24px 0 20px 0;
+}
