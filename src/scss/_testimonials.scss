@@ -4,14 +4,14 @@
     justify-content: space-between;
 }
 
-.testimonials__item {
+.testimonial__item {
     width: 352px;
     background-color: #25282C;
     padding: 24px 24px 20px 24px;
     margin-right: 24px;
 }
 
-.testimonials__item:last-child {
+.testimonial__item:last-child {
     margin-right: 0;
 }
 
@@ -20,6 +20,7 @@
 }
 
 // в текстовых блоках перед подписью
+/*
 .testimonials::after {
     content: "";
     display: block;
@@ -27,3 +28,4 @@
     border-bottom: 1px solid #979797;
     padding: 24px 0 20px 0;
 }
+*/
