@@ -15,17 +15,29 @@
     margin-right: 0;
 }
 
-.testimonials__caption {
+.testimonial__author {
+    display: inline;
+    color: $color-font-primary;
+}
+
+.testimonial__company {
+    display: inline;
     color: $color-blue;
 }
 
-// в текстовых блоках перед подписью
-/*
-.testimonials::after {
+.testimonial__content-item::before {
+    content: "– ";
+}
+
+.testimomial__misc p:not(:first-child)::before {
+     content: " / ";
+     color: $color-btn-additional;
+}
+
+.testimonial__content::after {
     content: "";
     display: block;
     margin: 0 auto;
-    border-bottom: 1px solid #979797;
-    padding: 24px 0 20px 0;
+    border-bottom: 1px solid $color-btn-additional;;
+    margin: 24px 0 20px 0;
 }
-*/
