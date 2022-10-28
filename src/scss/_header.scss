@@ -19,8 +19,12 @@
 .header__button {
     border: none;
     margin-left: 48px;
-    padding: 6px;
-    width: 96px;
-    height: 40px;
+    font-size: 16px;
+    background-color: $color-blue;
+    color: $color-white;
+    padding: 8px 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
 }
 
