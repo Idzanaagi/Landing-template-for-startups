@@ -1,84 +1,87 @@
-.footer__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer__description {
-    width: 352px;
+  width: 352px;
 }
 
 .nav-wrapper {
-    width: 583px;
-    display: flex;
-    justify-content: space-between;
+  width: 583px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.footer__nav  {
-    font-size: 14px;
-    line-height: 22px;
+.footer__nav {
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .footer__bottom {
-    margin-top: 64px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 0;
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0;
 }
 
 .footer__copyright {
-    margin-top: 48px;
-    margin: 0 0 70px 0;
-    font-size: 14px;
-    line-height: 22px;
-}
-
-.nav__title {
-    color: $color-font-primary;
-    font-weight: 500;
+  margin-top: 48px;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .footer__items {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav__title {
+  color: $color-font-primary;
+  font-weight: 500;
+}
+
+.footer__list {
+  display: flex;
 }
 
 .footer__item {
-    margin-right: 16px;
+  margin-right: 16px;
 }
 
 .footer__item:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
-.footer__item-icon{
-    padding-right: 16px;
-    width: 32px;
-    height: 32px;
-    background-color: #25282C;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer__item-icon {
+  padding-right: 16px;
+  width: 32px;
+  height: 32px;
+  background-color: #25282c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__item-icon > img {
-    width: 16px;
-    height: 16px;
+  width: 16px;
+  height: 16px;
 }
 
 .footer__item-icon:last-child {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 .footer__logo {
-    margin-bottom: 14px;
+  margin-bottom: 14px;
 }
 
 .nav__a {
-    color: $color-font-additional;
+  color: $color-font-additional;
 }
 
 .nav__a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
