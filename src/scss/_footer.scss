@@ -4,17 +4,17 @@
   align-items: center;
 }
 
-.footer__description {
+.footer__right-column {
   width: 352px;
 }
 
-.nav-wrapper {
+.footer__columns {
   width: 583px;
   display: flex;
   justify-content: space-between;
 }
 
-.footer__nav {
+.footer__column {
   font-size: 14px;
   line-height: 1.57;
 }
@@ -36,7 +36,7 @@
   align-items: flex-end;
 }
 
-.nav__title {
+.footer__column-title { 
   color: $color-font-primary;
   font-weight: 500;
 }
@@ -77,7 +77,7 @@
   margin-bottom: 14px;
 }
 
-.nav__a {
+.footer_list-item { 
   color: $color-font-additional;
 }
 
