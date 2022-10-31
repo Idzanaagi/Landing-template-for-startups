@@ -1,29 +1,26 @@
+.header {
+    margin: 20px 0 80px;
+}
+
 .header__container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 0 60px 0;
 }
 
 .header__menu {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
 }
 
 .header__link {
     color: $color-sentimenal;
-    font-weight: 400;
 }
 
 .header__button {
-    border: none;
     margin-left: 48px;
-    font-size: 16px;
     background-color: $color-blue;
     color: $color-white;
     padding: 8px 20px;
     font-weight: 500;
-    line-height: 1.5;
 }
 
