@@ -1,34 +1,19 @@
 .container-description {
-    width: 768px;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
 }
-/*
-.button {
-    background: $color-blue;
-    color: $color-white;
-    font-weight: 500;
-    width: 168px;
-    height: 48px;
-}
-*/
 
 .title {
     color: $color-font-primary;
     font-weight: 800;
-    letter-spacing: -0.5px;
 }
 
 .subtitle {
     color: $color-font-additional;
     font-size: 20px;
-    letter-spacing: -0.25px;
 }
 
 .description {
     margin: 0 auto;
-}
-
-.decor {
-    margin-bottom: 80px;;
 }

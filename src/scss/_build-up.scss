@@ -37,18 +37,17 @@
 }
 
 .build-up__item-title {
-    width: 100%;
     font-size: 18px;
     line-height: 30px;
     overflow: auto;
 }
 
 .build-up::after {
-        content: "";
-        display: block;
-        width: 1104px;
-        margin: 0 auto;
-        border-bottom: 1px solid #979797;
-        margin-top: 80px;
-        margin-bottom: 80px;
+    content: "";
+    display: block;
+    width: 1104px;
+    margin: 0 auto;
+    border-bottom: 1px solid #979797;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
