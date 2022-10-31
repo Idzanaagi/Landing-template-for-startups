@@ -5,8 +5,6 @@
 
 .subscribe__container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 79px 48px;
 }
 
@@ -31,10 +29,7 @@
     color: #E2E1FF;
     margin-right: 8px;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
-    display: block;
 }
 
 ::-webkit-input-placeholder {
@@ -42,8 +37,6 @@
 }
 
 .subscribe__button {
-    font-weight: 500;
-    background-color: #F4F4FF;
     color: $color-blue;
     padding: 12px 32px;
     font-weight: 500;
