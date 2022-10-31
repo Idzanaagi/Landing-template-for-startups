@@ -3,19 +3,17 @@
 }
 
 .benefits__pseudo-btn {
-    font-style: normal; 
     font-weight: 600;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 1.57;
     color: #36A269;
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: #C6F6D5;
     width: 186px;
     height: 30px;
     border-radius: 15px;
-    display: flex;
-    align-items: center;
     margin: 0 auto;
     margin-bottom: 16px;
 }
@@ -23,7 +21,6 @@
 .benefits__item {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-top: 80px;
     gap: 70px;
 }
@@ -41,20 +38,14 @@
     font-family: $font-additional;
     color: $color-blue;
     font-size: 20px;
-    line-height: 30px;
     letter-spacing: 0.25px;
     margin-bottom: 8px;
 }
 
 .benefits__list-item {
-    list-style-type: none;
-    margin: 0;
     color: $color-font-additional;
-    font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
     letter-spacing: -0.25px;
-
 }
 
 .benefits__image {
