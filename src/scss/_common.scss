@@ -7,7 +7,6 @@ body {
     letter-spacing: -0.25px;
     margin: 0 auto;
     font-weight: 400;
-   // overflow: auto;
 }
 
 .container {
@@ -15,6 +14,7 @@ body {
     margin: 0 auto;
 }
 
+a:hover,
 button:hover {
     cursor: pointer;
     text-decoration: underline;
