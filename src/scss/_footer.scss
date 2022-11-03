@@ -43,6 +43,7 @@
 
 .footer__list {
   display: flex;
+  flex-direction: column
 }
 
 .footer__item {
@@ -77,10 +78,14 @@
   margin-bottom: 14px;
 }
 
-.footer_list-item { 
+.footer__list-item { 
   color: $color-font-additional;
 }
 
 .nav__a:hover {
   text-decoration: underline;
+}
+
+.footer__social {
+  display: flex;
 }

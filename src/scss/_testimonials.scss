@@ -1,8 +1,8 @@
-.testimonials {
+.testimonial {
     margin-bottom: 80px;
 }
 
-.testimonials__items {
+.testimonial__items {
     display: flex;
     margin-top: 80px;
 }
@@ -31,7 +31,7 @@
     content: "– ";
 }
 
-.testimomial__misc p:not(:first-child)::before {
+.testimonial__misc p:not(:first-child)::before {
      content: " / ";
      color: $color-btn-additional;
 }
