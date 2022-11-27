@@ -5,18 +5,18 @@
 }
 
 .footer__right-column {
-  width: 352px;
+  max-width: 30%;;
 }
 
 .footer__columns {
-  width: 583px;
+  width: 55%;
   display: flex;
   justify-content: space-between;
 }
 
 .footer__column {
   font-size: 14px;
-  line-height: 1.57;
+  line-height: 1.57; 
 }
 
 .footer__bottom {
@@ -43,7 +43,7 @@
 
 .footer__list {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .footer__item {
