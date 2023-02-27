@@ -1,27 +1,26 @@
 .header {
-    margin: 20px 0 80px;
+  margin: 20px 0 80px;
 }
 
 .header__container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__menu {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header__link {
-    color: $color-sentimenal;
+  color: $color-sentimenal;
 }
 
 .header__button {
-    margin-left: 48px;
-    background-color: $color-blue;
-    color: $color-white;
-    padding: 8px 20px;
-    font-weight: 500;
-    letter-spacing: -0.25px;
+  margin-left: 48px;
+  background-color: $color-blue;
+  color: $color-white;
+  padding: 8px 20px;
+  font-weight: 500;
+  letter-spacing: -0.25px;
 }
-

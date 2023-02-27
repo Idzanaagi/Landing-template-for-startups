@@ -1,2 +1,2 @@
-import './scss/variables.scss';
-import './scss/app.scss';
+import "./scss/variables.scss";
+import "./scss/app.scss";

@@ -1,32 +1,32 @@
 .template {
-    margin-bottom: 128px;
+  margin-bottom: 128px;
 }
 
 .template__title {
-    font-size: 52px;
-    line-height: 62px;
-    padding-bottom: 16px;
+  font-size: 52px;
+  line-height: 62px;
+  padding-bottom: 16px;
 }
 
 .template__buttons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 64px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 64px;
 }
 
 .template__button {
-    margin: 20px 10px;
-    font-weight: 500;
-    padding: 12px 32px;
-    color: $color-white;
-    background-color: $color-blue;
+  margin: 20px 10px;
+  font-weight: 500;
+  padding: 12px 32px;
+  color: $color-white;
+  background-color: $color-blue;
 }
 
 .template__image {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

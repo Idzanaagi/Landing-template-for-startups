@@ -1,47 +1,47 @@
-.subscribe{
-    background-color: $color-blue;
-    margin-bottom: 64px;
+.subscribe {
+  background-color: $color-blue;
+  margin-bottom: 64px;
 }
 
 .subscribe__container {
-    display: flex;
-    padding: 79px 48px;
+  display: flex;
+  padding: 79px 48px;
 }
 
 .subscribe__description {
-    text-align: left;
+  text-align: left;
 }
 
 .subscribe__subtitle {
-    color: #E2E1FF;
+  color: #e2e1ff;
 }
 
 .form {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .subscribe__input {
-    background: #4B4ACF;
-    border: 1px solid #8D8DFF;
-    border-radius: 2px;
-    padding: 10px 109px 10px 12px;
-    color: #E2E1FF;
-    margin-right: 8px;
-    font-size: 16px;
-    line-height: 1.5;
+  background: #4b4acf;
+  border: 1px solid #8d8dff;
+  border-radius: 2px;
+  padding: 10px 109px 10px 12px;
+  color: #e2e1ff;
+  margin-right: 8px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 ::-webkit-input-placeholder {
-    color: #ABABFF;
+  color: #ababff;
 }
 
 .subscribe__button {
-    color: $color-blue;
-    padding: 12px 32px;
-    font-weight: 500;
-    font-size: 16px;
-    border-radius: 2px;
-    letter-spacing: -0.25px;
-    line-height: 1.5;
+  color: $color-blue;
+  padding: 12px 32px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 2px;
+  letter-spacing: -0.25px;
+  line-height: 1.5;
 }

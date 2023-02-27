@@ -1,45 +1,45 @@
 .testimonial {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .testimonial__items {
-    display: flex;
-    margin-top: 80px;
+  display: flex;
+  margin-top: 80px;
 }
 
 .testimonial__item {
-    background-color: #25282C;
-    padding: 24px 24px 20px 24px;
-    margin-right: 24px;
+  background-color: #25282c;
+  padding: 24px 24px 20px 24px;
+  margin-right: 24px;
 }
 
 .testimonial__item:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .testimonial__author {
-    display: inline;
-    color: $color-font-primary;
+  display: inline;
+  color: $color-font-primary;
 }
 
 .testimonial__company {
-    display: inline;
-    color: $color-blue;
+  display: inline;
+  color: $color-blue;
 }
 
 .testimonial__content-item::before {
-    content: "– ";
+  content: "– ";
 }
 
 .testimonial__misc p:not(:first-child)::before {
-     content: " / ";
-     color: $color-btn-additional;
+  content: " / ";
+  color: $color-btn-additional;
 }
 
 .testimonial__content::after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    border-bottom: 1px solid $color-btn-additional;;
-    margin: 24px 0 20px 0;
+  content: "";
+  display: block;
+  margin: 0 auto;
+  border-bottom: 1px solid $color-btn-additional;
+  margin: 24px 0 20px 0;
 }
