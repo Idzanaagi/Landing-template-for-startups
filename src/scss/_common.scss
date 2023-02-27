@@ -1,21 +1,25 @@
 body {
-    font-family: $font-primary;
-    background-color: black;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: -0.25px;
-    margin: 0 auto;
-    font-weight: 400;
+  font-family: $font-primary;
+  background-color: black;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.25px;
+  font-weight: 400;
 }
 
 .container {
-    max-width: 1104px;
-    margin: 0 auto;
+  max-width: 1104px;
+  margin: 0 auto;
 }
 
 a:hover,
 button:hover {
-    cursor: pointer;
-    text-decoration: underline;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.wrapper {
+  max-width: 75%;
+  margin: 0 auto;
 }
