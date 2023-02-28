@@ -5,6 +5,7 @@
 
 ### Описание:
 - написала валидную [разметку](https://github.com/Idzanaagi/Landing-template-for-startups/blob/main/index.html) HTML5;
+- :point_right: NEW! завезла адаптив; :point_left:
 - для позиционирования элементов использовала flexbox;
 - настроила [конфиг](https://github.com/Idzanaagi/Landing-template-for-startups/blob/main/webpack.config.cjs) вебпака для работы с html, scss, css, файлами;
 - использовала [возможности](https://github.com/Idzanaagi/Landing-template-for-startups/blob/main/webpack.config.cjs) Sass (фрагментирование, переменные);
