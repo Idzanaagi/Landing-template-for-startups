@@ -1,3 +1,44 @@
+@media (min-width: 769px) and (max-width:1200px) {
+  .wrapper {
+    max-width: 90%;
+    overflow: hidden;
+  }
+
+  .benefits__item {
+    gap: 10px;
+  }
+
+  .benefits__content  {
+    line-height: 1.5;
+    font-size: 17px;
+  }
+
+  .benefits__image-content {
+    max-width: 99%;
+  }
+
+  .testimonial__item { 
+    padding: 24px 14px;
+  }
+
+  .subscribe__container {
+    padding: 40px 20px;
+    display: block;
+  }
+
+  .subscribe__description {
+    width: 100%;
+  }
+
+  .subscribe__title {
+    margin-bottom: 20px;
+  }
+
+  .subscribe__subtitle {
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .wrapper {
     max-width: 90%;
@@ -78,6 +119,7 @@
   .footer__bottom {
     flex-direction: column;
     justify-content: end;
+    margin-top: 10px;
   }
 
   .header {
@@ -89,13 +131,14 @@
     font-weight: normal;
   }
 
-  .footer__bottom {
-    margin-top: 10px;
-  }
-
   .footer__column {
     margin-bottom: 10px;
   }
+
+  .footer__copyright {
+   margin-bottom: 10px;
+  }
+
 }
 
 @media (min-width: 501px) and (max-width: 768px) {
@@ -156,9 +199,14 @@
   }
 
   .footer__right-column {
-    // TODO add align
     max-width: 100%;
     margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer__subtitle {
+    margin-left: 20px;
   }
 
   .footer__top {
@@ -167,7 +215,20 @@
 
   .footer__columns {
     width: 100%;
+    margin-top: 10px;
   }
+
+  .footer__bottom {
+    margin-top: 10px;
+    align-items: baseline;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .footer__copyright {
+    text-align: start;
+  }
+
 }
 
 @media (max-width: 500px) {
